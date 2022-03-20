@@ -33,6 +33,14 @@
                 description="Search on Stack Overflow">
             <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>
         </action>
+
+        <action
+                id="Test.Search.Editor"
+                class="GenerateTestCaseAction"
+                text="Tester text"
+                description="Tester description">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
     </actions>
 
 
