@@ -37,8 +37,8 @@
         <action
                 id="Test.Search.Editor"
                 class="GenerateTestCaseAction"
-                text="Tester text"
-                description="Tester description">
+                text="Generate Test Case"
+                description="This item generates a test case.">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
