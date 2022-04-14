@@ -49,9 +49,9 @@ public class GenerateTestCaseAction extends AnAction {
                     "    @org.junit.jupiter.api.Test\n" +
                     "    void nthFibonacciTermTest() {\n" +
                     "        FibonacciUnit f = new FibonacciUnit();\n" +
-                    "        assertEquals( 3, f.nthFibonacciTerm(4));\n" +
+                    "        assertEquals( 3, f.nthFibonacciTerm(  4  ));  //input your values\n" +
                     "    }\n" +
-                    "}");  // the hope is to get the method name and use it in this test writer.
+                    "}");  // the hope is to get the method name and use it in this test writer. Replacing the Class and method.
             testFileWriter.close();
         }
         catch (IOException exception)
