@@ -8,6 +8,8 @@ import com.intellij.openapi.editor.Editor;
 import com.intellij.pom.Navigatable; //can be used to obtain selected method
 import com.intellij.openapi.project.Project; //can be used to get selected project
 
+import com.intellij.psi.PsiMethod;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
